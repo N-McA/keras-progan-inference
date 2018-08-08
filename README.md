@@ -31,7 +31,7 @@ plt.axis('off')
 plt.savefig('test.jpg')
 ```
 Gives:
-![An example of ProGAN output.]("https://github.com/N-McA/keras-progan-inference/raw/master/notebooks/test.jpg")
+![An example of ProGAN output.](/notebooks/test.jpg)
 
 ## This git repo is really heavy, at ~90MB
 Because it has the weights in it. (There's a b/w limit for git lfs, go figure).
