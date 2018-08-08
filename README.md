@@ -28,9 +28,12 @@ imgs = np.clip(imgs, 0, 1)
 
 plt.imshow(imgs[0])
 plt.axis('off')
-plt.savefig('example.png')
+plt.savefig('test.jpg')
 ```
 Gives:
-![alt text](notebooks/test.png)
+![An example of ProGAN output.]("https://github.com/N-McA/keras-progan-inference/raw/master/notebooks/test.jpg")
+
+## This git repo is really heavy, at ~90MB
+Because it has the weights in it. (There's a b/w limit for git lfs, go figure).
 
 [0] https://github.com/tkarras/progressive_growing_of_gans
